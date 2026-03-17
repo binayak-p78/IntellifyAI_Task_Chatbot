@@ -12,6 +12,25 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** system that lets you uplo
 
 ---
 
+## Application UI
+
+![IntellifyAI UI](Screenshot_2026-03-17_220305.png)
+
+The **IntellifyAI** interface is split into two panels:
+
+**Left panel — Document Management**
+- Drag-and-drop or browse to upload a PDF (up to 200MB)
+- Displays the loaded file name and size
+- Live stats bar shows: docs ingested, pipeline status, and active pipeline (Inngest)
+- **Ingest Document** button triggers the full ingestion pipeline
+
+**Right panel — Q&A Chat**
+- Ask any question about your uploaded documents in the input bar
+- Adjust the **Chunks** counter to control how many context chunks are retrieved (default: 5)
+- Answers appear with the source PDF filename and chunk count cited below the response
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
